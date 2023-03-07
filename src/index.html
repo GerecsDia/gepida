@@ -1,18 +1,50 @@
+<!--
+/*
+* Author: Gerecs Diána
+* Copyright: 2023, Gerecs Diána
+* Group: Szoft I-2-E
+* Date: 20230-03-07
+* Github: https://github.com/Gerecs Dia/
+* Licenc: GNU GPL
+*/
+ -->
+
 <!DOCTYPE html>
 <html lang="hu">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Gepida</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styl.css">    
 </head>
 
 <body>
 
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Gepida</h1>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Név</th>
+                    <th>Kerék</th>
+                    <th>Használat</th>
+                    <th>Ár</th>
+                </tr>
+            </thead>
+            <tbody id="biketbody"></tbody>
+        </table>
+
+
     </div>
+
+    <div id="about">  
+        Gerecs Diána, Szoft I-2-E, 2023-03-07  
+    </div>
+    <script src="app.js"></script>
 
 
 </body>
