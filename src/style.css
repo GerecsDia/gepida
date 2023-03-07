@@ -8,18 +8,30 @@
 */
 #about{
     background-color: white;
-    border: 3px solid rgb(14, 10, 247) ;
+    border: 3px solid rgb(125, 63, 153) ;
     text-align: center;
     position: fixed;
     width: 650px;
     top: 80px;
     right: -200px;
     transform: rotate(45deg);
-    font-size: 13px;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 6px;
-    padding-bottom: 4px;
-    color: blue;
+    padding-bottom: 6px;
+    color: rgb(16, 16, 46);
 
 
+}
+
+.container{
+    background-color: rgb(185, 169, 185);
+}
+
+#biketbody{
+    background-color: white;
+}
+
+#quote{
+    color:rgb(34, 16, 46);
+  
 }
