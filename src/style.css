@@ -3,21 +3,22 @@
 * Copyright: 2023, Gerecs Diána
 * Group: Szoft I-2-E
 * Date: 20230-03-7
-* Github: https://github.com/Gerecs Dia/
+* Github: https://github.com/GerecsDia/
 * Licenc: GNU GPL
-
-
-*/#about{
+*/
+#about{
     background-color: white;
     border: 3px solid gold ;
     text-align: center;
     position: fixed;
-    width: 600px;
+    width: 650px;
     top: 80px;
-    right: -220px;
+    right: -200px;
     transform: rotate(45deg);
     font-size: 13px;
     font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 4px;
 
 
 }
